@@ -1,0 +1,58 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+::selection {
+    background: #2f78c7;
+    color: #FFF;
+    text-shadow: none;
+}
+
+.dark .menu-item:hover > .menu-link, .dark .menu-item.current > .menu-link,
+.menu-item:hover > .menu-link, .menu-item.current > .menu-link {
+	color: #2f78c7;
+}
+#gotoTop{
+	background-color: #444;
+}
+
+#gotoTop:hover{
+	background-color: #2f78c7;
+}
+.title-bottom-border h1, .title-bottom-border h2, .title-bottom-border h3, .title-bottom-border h4, .title-bottom-border h5, .title-bottom-border h6 {
+	border-bottom: 2px solid #2f78c7
+}
+
+#mapid { 
+	height: 100%;
+}
+
+.leaflet-pane,
+.leaflet-control {
+    z-index: 0!important;
+}
+.mfp-bottom-bar {
+    margin-top: -70px;
+}
+.mfp-title {
+    background-color: rgba(16,16,16,1);
+    padding: 0.5em 1em;
+    text-align: justify;
+    font-size: 0.85em;
+}
+.footer-logo{
+	margin: 0  auto;
+}
+
+#footer .address {
+	font-size: 0.9em;
+}
+
+@media (min-width: 992px) {
+	.primary-menu .menu-container .menu-link {
+		font-weight: 900;
+	}
+}

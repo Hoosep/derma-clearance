@@ -1,1 +1,4 @@
 workspace.code-workspace
+*.zip
+Package-HTML/
+HTML/
