@@ -19,6 +19,9 @@
 	text-align: justify;
 }
 
+.page-section{
+	padding: 3em 0;
+}
 
 
 @media (max-width: 991px) {
@@ -41,8 +44,15 @@
 }
 
 .dark .menu-item:hover > .menu-link, .dark .menu-item.current > .menu-link,
-.menu-item:hover > .menu-link, .menu-item.current > .menu-link {
+.menu-item:hover > .menu-link, .menu-item.current > .menu-link,
+h1 > span:not(.nocolor):not(.badge),
+h2 > span:not(.nocolor):not(.badge),
+h3 > span:not(.nocolor):not(.badge),
+h4 > span:not(.nocolor):not(.badge),
+h5 > span:not(.nocolor):not(.badge),
+h6 > span:not(.nocolor):not(.badge) {
 	color: #2f78c7;
+    text-shadow: 3px 1px black;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -72,15 +82,47 @@
 .leaflet-control {
     z-index: 0!important;
 }
+
 .mfp-bottom-bar {
-    margin-top: -70px;
+	margin-top: -70px;
 }
+
+@media (min-width: 426px) {
+	img.mfp-img{
+		display: inline-block;
+		width: 50%;
+	}
+
+	.mfp-content > .mfp-figure figcaption {
+		display: inline-block;
+		width: 50%;
+	}
+	.mfp-figure:after {
+		background-color: rgba(255,255,255,1);
+	}
+	.mfp-bottom-bar {
+		position: inherit;
+		margin-top: 0px;
+	}
+
+}
+
 .mfp-title {
-    background-color: rgba(16,16,16,1);
+    background-color: rgba(255,255,255,1);
     padding: 0.5em 1em;
     text-align: justify;
-    font-size: 0.85em;
+	font-size: 0.85em;
+	color: #444;
 }
+
+.textarea {
+	height: inherit;
+}
+
+#footer {
+	background-color: #FFF;
+}
+
 .footer-logo{
 	margin: 0  auto;
 }
