@@ -127,7 +127,8 @@ h6 > span:not(.nocolor):not(.badge){
 	height: inherit;
 }
 
-#footer {
+#footer,
+.section {
 	background-color: #FFF;
 }
 
