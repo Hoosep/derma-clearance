@@ -140,6 +140,12 @@ h6 > span:not(.nocolor):not(.badge){
 	font-size: 0.9em;
 }
 
+.oc-item > .portfolio-item .bg-overlay > .not-animated > a,
+.oc-item > .portfolio-item .bg-overlay > .animated.fadeOut > a {
+	pointer-events: none;
+}
+
+
 @media (min-width: 992px) {
 	.primary-menu .menu-container .menu-link {
 		font-weight: 900;
