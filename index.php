@@ -8,24 +8,24 @@
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900|Roboto:300,400,500,700&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/style.css" type="text/css" />
 
 	<!-- One Page Module Specific Stylesheet -->
-	<link rel="stylesheet" href="one-page/onepage.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/one-page/onepage.css" type="text/css" />
 	<!-- / -->
 
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/one-page/css/et-line.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="one-page/css/fonts.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/one-page/css/fonts.css" type="text/css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin=""/>
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 
@@ -101,7 +101,7 @@
 						<div id="logo">
 							<a href="index.html" class="standard-logo" data-dark-logo="logo-dark.png"
 							data-mobile-logo="logo.png">
-								<img src="logo.png" alt="Logo">
+								<img src="<?php echo get_bloginfo('template_directory'); ?>/logo.png" alt="Logo">
 							</a>
 						</div><!-- #logo end -->
 
@@ -286,11 +286,11 @@
                                         <div class="portfolio-item">
                                             <div class="portfolio-image">
                                                 <a href="#">
-                                                    <img src="products/producto-1.png" alt="Open Imagination">
+                                                    <img src="<?php echo get_bloginfo('template_directory'); ?>/products/producto-1.png" alt="Open Imagination">
                                                 </a>
                                                 <div class="bg-overlay">
                                                     <div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-                                                        <a href="products/producto-1.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"
+                                                        <a href="<?php echo get_bloginfo('template_directory'); ?>/products/producto-1.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"
                                                         title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus ratione perspiciatis optio tempora in, laborum saepe laudantium amet illo. Aperiam illo officia earum. Eligendi impedit repellat quam consequatur ex."><i class="icon-eye1"></i></a>
                                                         <a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-external-link"></i></a>
                                                     </div>
@@ -309,11 +309,11 @@
                                         <div class="portfolio-item">
                                             <div class="portfolio-image">
                                                 <a href="#">
-                                                    <img src="products/producto-1.png" alt="Locked Steel Gate">
+                                                    <img src="<?php echo get_bloginfo('template_directory'); ?>/products/producto-1.png" alt="Locked Steel Gate">
                                                 </a>
                                                 <div class="bg-overlay">
                                                     <div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-                                                        <a href="products/producto-1.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"
+                                                        <a href="<?php echo get_bloginfo('template_directory'); ?>/products/producto-1.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"
                                                         title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus ratione perspiciatis optio tempora in, laborum saepe laudantium amet illo. Aperiam illo officia earum. Eligendi impedit repellat quam consequatur ex."><i class="icon-eye1"></i></a>
                                                         <a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-external-link"></i></a>
                                                     </div>
@@ -331,11 +331,11 @@
                                         <div class="portfolio-item">
                                             <div class="portfolio-image">
                                                 <a href="#">
-                                                    <img src="products/producto-1.png" alt="Locked Steel Gate">
+                                                    <img src="<?php echo get_bloginfo('template_directory'); ?>/products/producto-1.png" alt="Locked Steel Gate">
                                                 </a>
                                                 <div class="bg-overlay">
                                                     <div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-                                                        <a href="products/producto-1.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"
+                                                        <a href="<?php echo get_bloginfo('template_directory'); ?>/products/producto-1.png" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"
                                                         title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus ratione perspiciatis optio tempora in, laborum saepe laudantium amet illo. Aperiam illo officia earum. Eligendi impedit repellat quam consequatur ex."><i class="icon-eye1"></i></a>
                                                         <a href="#" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-external-link"></i></a>
                                                     </div>
@@ -373,7 +373,7 @@
 
 								<div class="form-result"></div>
 
-								<form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
+								<form class="row mb-0" id="template-contactform" name="template-contactform" action="<?php echo get_bloginfo('template_directory'); ?>/include/form.php" method="post">
 
 									<div class="form-process">
 										<div class="css3-spinner">
@@ -457,7 +457,7 @@
                     <div class="col-md-6 col-lg-4">
 
                         <div class="clearfix">
-                            <img src="logo.png" width="100" alt="Image" class="footer-logo">
+                            <img src="<?php echo get_bloginfo('template_directory'); ?>/logo.png" width="100" alt="Image" class="footer-logo">
                         </div>
 
                     </div>
@@ -512,15 +512,15 @@
 
 	<!-- JavaScripts
 	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
+	<script src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.js"></script>
+	<script src="<?php echo get_bloginfo('template_directory'); ?>/js/plugins.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
 
 	<!-- Footer Scripts
 	============================================= -->
-	<script src="js/functions.js"></script>
-    <script src="js/custom.js"></script>
+	<script src="<?php echo get_bloginfo('template_directory'); ?>/js/functions.js"></script>
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/js/custom.js"></script>
 </body>
 </html>
